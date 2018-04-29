@@ -1,0 +1,22 @@
+@import '../../../styles/variables';
+
+h2 {
+    color: $secondary;
+    margin-bottom: 1em;
+}
+
+.form-wrapper {
+    min-width: 40%;
+    margin-bottom: 10%;
+    border: 1px solid $light-grey;
+    padding: 1em 2em;
+    box-shadow: 0 15px 20px $light-grey;
+}
+
+.first-name {
+    margin-right: 0.5em;
+}
+
+.last-name {
+    margin-left: 0.5em;
+}

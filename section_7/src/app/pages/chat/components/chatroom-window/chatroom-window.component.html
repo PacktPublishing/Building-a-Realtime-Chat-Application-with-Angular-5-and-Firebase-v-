@@ -1,0 +1,29 @@
+<div class="h-100 d-flex flex-column chat-window">
+  <ng-container *ngIf="!chatroom else chatMessages">
+    <div class="select-room h-100 w-100 d-flex justify-content-center align-items-center">
+      <div class="select-room-message">
+        Select a Room
+      </div>
+    </div>
+  </ng-container>
+</div>
+
+<ng-template #chatMessages>
+  <app-chatroom-title-bar [title]="chatroom.name"></app-chatroom-title-bar>
+  <div class="message-wrapper h-100" #scrollContainer>
+    <ng-container *ngIf="messages.length > 0 else noMessages">
+      <ng-container *ngFor="let message of messages">
+        <app-chat-message [message]="message"></app-chat-message>
+      </ng-container>
+    </ng-container>
+  </div>
+  <app-chat-input></app-chat-input>
+</ng-template>
+
+<ng-template #noMessages>
+  <div class="select-room h-100 w-100 d-flex justify-content-center align-items-center">
+    <div class="select-room-message">
+      No Messages
+    </div>
+  </div>
+</ng-template>

@@ -1,0 +1,11 @@
+@import '../styles/variables';
+
+.alert-wrapper {
+    position: relative;
+
+    alert {
+        position: absolute;
+        top: $navbar-height;
+        width: 100%;
+    }
+}

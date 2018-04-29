@@ -1,0 +1,18 @@
+@import '../../../styles/variables';
+
+span {
+    color: #ffffff;
+}
+
+.nav-item {
+    color: $light-grey;
+}
+
+a {
+    color: $light-grey;
+    margin-left: 3em;
+
+    &.active {
+        border-bottom: 3px solid $gold;
+    }
+}

@@ -1,3 +1,8 @@
+## $5 Tech Unlocked 2021!
+[Buy and download this Video for only $5 on PacktPub.com](https://www.packtpub.com/product/building-a-realtime-chat-application-with-angular-5-and-firebase-video/9781788834483)
+-----
+*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
+
 # Building a Realtime Chat Application with Angular 5 and Firebase [Video]
 This is the code repository for [Building a Realtime Chat Application with Angular 5 and Firebase [Video]](https://www.packtpub.com/application-development/building-realtime-chat-application-angular-and-firebase-video?utm_source=github&utm_medium=repository&utm_campaign=9781788834483), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
